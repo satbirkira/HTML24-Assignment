@@ -9,6 +9,22 @@
 {
 	height:65px;
 	background-color: rgb(25, 55, 24);
+	position: relative;
+}
+#logo
+{
+	bottom: 0px;
+	position: absolute;
+}
+#slogan
+{
+	font-family:Garamond, Georgia, serif;
+	font-size: 15pt;
+	color: #ffffff;
+	display: inline-block;
+	white-space: pre;
+	text-indent: 7px;
+	letter-spacing: 2px;
 }
 #topbar_menu_area
 {
