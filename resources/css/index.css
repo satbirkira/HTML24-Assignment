@@ -1,0 +1,41 @@
+#main_container
+{
+	width: 960px;
+	margin: auto;
+	padding: 30px;
+	background-color: rgb(255, 55, 24);
+}
+#header
+{
+	height:65px;
+	background-color: rgb(25, 55, 24);
+}
+#topbar_menu_area
+{
+	height:47px;
+	background-color: rgb(100, 105, 64);
+}
+#slider
+{
+	margin: 0 -30px;
+	background-color: rgb(256, 2, 25);
+}
+#back_bar
+{
+	background-color: rgb(26, 2, 25);
+	padding: 40px 0px;
+}
+#slider_quote
+{
+	font-family:Garamond, Georgia, serif;
+	font-size:20pt;
+	line-height: 20pt;
+	color: #a3a3a3;
+	display: inline-block;
+	width: 55%;
+}
+#share_icons
+{
+	display: inline-block;
+	float: right;
+}
