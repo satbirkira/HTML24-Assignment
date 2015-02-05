@@ -4,17 +4,17 @@
 	margin: auto;
 	padding: 30px;
 	background-color: rgb(255, 55, 24);
+
+	/* add gradient background*/
+	background-image: url("./images/Untitled-8.png");
+	background-position: 100% 0%;
+	background-repeat: no-repeat;
 }
-#header
+#header_top
 {
-	height:65px;
-	background-color: rgb(25, 55, 24);
-	position: relative;
 }
 #logo
 {
-	bottom: 0px;
-	position: absolute;
 }
 #slogan
 {
@@ -28,8 +28,6 @@
 }
 #topbar_menu_area
 {
-	height:47px;
-	background-color: rgb(100, 105, 64);
 }
 #slider
 {
