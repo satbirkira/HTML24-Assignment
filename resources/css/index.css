@@ -22,13 +22,9 @@
 	background-size: 15px;
 	background-position: 5% 100%;
 }
-
 #header
 {
 	background-color: rgb(25, 55, 24);
-}
-#logo
-{
 }
 #slogan
 {
@@ -108,4 +104,53 @@
 {
 	display: inline-block;
 	float: right;
+}
+#middle_content
+{
+	background-color: white;
+	padding-top: 20px;
+}
+#footer
+{
+	background-color: rgb(26, 20, 45);
+	padding-top: 20px;
+}
+#sponsors
+{
+	/* background-color: #4e4d4d */
+	background-color: rgb(120, 105, 64);
+	padding-top: 20px;
+}
+#sponsors_title
+{
+	padding-bottom: 20px;
+}
+#sponsors_title_text
+{
+	font-family:Garamond, Georgia, serif;
+	font-size:20pt;
+	color: #111213;
+}
+#sponsor_table
+{
+	display: table;
+	width: 100%;
+	text-align: center;
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+#sponsor_table .cell
+{
+	border: 6px solid #fafafa;
+    /*padding: 10px 40px;*/
+}
+#sponsor_table  img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+#sponsor_holder
+{
+	padding: 5px;
 }
