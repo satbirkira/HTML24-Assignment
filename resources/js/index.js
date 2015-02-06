@@ -9,7 +9,9 @@ $(function()
 	});
 	
 	//add search box
-	var availableTags = ["Apple", "Beer", "Club Soda", "Dairy"
+	var availableTags = ["Apple", "Beer", "Club Soda", "Dairy", "Eggplant", "Fudge",
+	"Grape", "Honey", "Ice Cream", "Jam", "Kiwi", "Lettuce", "Milk", "Noodles",
+	"Orange", "Pineapple", "Rice", "Soup", "Tomatoes", "Vinilla", "Watermelon", "Yogurt"
     ];
     $( "#search_bar" ).autocomplete({
       source: availableTags
