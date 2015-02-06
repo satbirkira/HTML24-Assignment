@@ -3,12 +3,13 @@
 	width: 960px;
 	margin: auto;
 	padding: 30px;
-	background-color: #111213;
+	/* background-color: #111213; */
 
 	/* add gradient background*/
 	background-image: url("./images/top_white_shadow.png");
 	background-position: 100% 0%;
 	background-repeat: no-repeat;
+	background-color: rgb(255, 55, 24);
 }
 #search_bar
 {
@@ -24,7 +25,7 @@
 
 #header
 {
-
+	background-color: rgb(25, 55, 24);
 }
 #logo
 {
@@ -44,6 +45,7 @@
 	display: table;
 	padding-bottom: 20px;
 	width: 100%;
+	background-color: rgb(100, 105, 64);
 }
 .menu
 {
