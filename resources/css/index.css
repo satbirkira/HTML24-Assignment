@@ -97,8 +97,15 @@
 	font-family:Garamond, Georgia, serif;
 	font-size:23pt;
 	line-height: 25pt;
-	color: #a3a3a3;
 	display: inline-block;
+}
+.light_text
+{
+	color: #a3a3a3;
+}
+.dark_text
+{
+	color: #646363;
 }
 #share_icons
 {
@@ -152,7 +159,7 @@
 {
 	display: table;
 	width: 100%;
-	background-color: rgb(125, 211, 173);
+	background-color: rgb(20, 20, 20);
 	padding-top: 20px;
 }
 #left_footer
@@ -162,11 +169,13 @@
 }
 #about_section
 {
-	background-color: rgb(169, 169, 169);
+	background-color: rgb(20, 20, 20);
+	width: 50%;
 }
 #flickr_section
 {
-	background-color: rgb(146, 146, 150);
+	background-color: rgb(20, 20, 20);
+	padding-left: 20px;
 }
 #contact_section
 {
@@ -176,4 +185,19 @@
 {
 	display: inline-table;
 	width: 100%;
+}
+#about_title_text, #flickr_title_text
+{
+	font-family:Garamond, Georgia, serif;
+	font-size:20pt;
+	color: #ffffff;
+}
+#flickr_title
+{
+	padding-bottom: 20px;
+}
+#flickr_stream
+{
+	width:240px;
+	height:255px;
 }
