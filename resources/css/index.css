@@ -90,12 +90,16 @@
 }
 .left-cell
 {
-	width: 65%;
+	width: 68%;
+}
+.blog_left_cell
+{
+	width: 75%;
 }
 #slider_quote
 {
 	font-family:Garamond, Georgia, serif;
-	font-size:23pt;
+	font-size:25pt;
 	line-height: 25pt;
 	display: inline-block;
 }
@@ -164,7 +168,7 @@
 }
 #left_footer
 {
-	width: 65%;
+	width: 68%;
 	background-color: rgb(250, 235, 215);
 }
 #about_section
@@ -197,9 +201,29 @@
 	font-size:20pt;
 	color: #ffffff;
 }
-#flickr_stream
+#flickr_stream img
 {
-	width:240px;
-	height:255px;
+	width: 75px;
+	height: 75px;
+	padding: 5px;
+	border: 1px solid #fafafa;
+}
+#flickr_stream a
+{
+	padding: 2px;
+}
+#blog_posts
+{
+	background-color: rgb(250, 235, 20);
+}
+#blog_sidebar
+{
+	background-color: rgb(20, 235, 215);
+}
+#middle_content
+{
+	display: table;
+	width: 100%;
+	background-color: rgb(200, 105, 64);
 }
 
