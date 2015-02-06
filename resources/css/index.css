@@ -110,16 +110,11 @@
 	background-color: white;
 	padding-top: 20px;
 }
-#footer
-{
-	background-color: rgb(26, 20, 45);
-	padding-top: 20px;
-}
 #sponsors
 {
 	/* background-color: #4e4d4d */
 	background-color: rgb(120, 105, 64);
-	padding-top: 20px;
+	padding: 20px 0;
 }
 #sponsors_title
 {
@@ -149,8 +144,31 @@
 	max-width: 100%;
 	height: auto;
 }
-
 #sponsor_holder
 {
 	padding: 5px;
+}
+#footer
+{
+	display: table;
+	width: 100%;
+	background-color: rgb(125, 211, 173);
+	padding-top: 20px;
+}
+#left_footer
+{
+	width: 65%;
+	background-color: rgb(250, 235, 215);
+}
+#about_section
+{
+	background-color: rgb(169, 169, 169);
+}
+#flickr_section
+{
+	background-color: rgb(146, 146, 150);
+}
+#contact_section
+{
+	background-color: rgb(255, 162, 222);
 }
