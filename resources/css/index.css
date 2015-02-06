@@ -172,3 +172,8 @@
 {
 	background-color: rgb(255, 162, 222);
 }
+#left-footer-content
+{
+	display: inline-table;
+	width: 100%;
+}
