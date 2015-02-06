@@ -179,25 +179,27 @@
 }
 #contact_section
 {
-	background-color: rgb(255, 162, 222);
+	padding-left: 20px;
+	background-color: rgb(20, 20, 20);
 }
 #left-footer-content
 {
 	display: inline-table;
 	width: 100%;
 }
-#about_title_text, #flickr_title_text
+#flickr_title
+{
+	padding-bottom: 20px;
+}
+#about_title_text, #flickr_title_text, #contact_title_text
 {
 	font-family:Garamond, Georgia, serif;
 	font-size:20pt;
 	color: #ffffff;
-}
-#flickr_title
-{
-	padding-bottom: 20px;
 }
 #flickr_stream
 {
 	width:240px;
 	height:255px;
 }
+
