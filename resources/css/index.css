@@ -3,13 +3,25 @@
 	width: 960px;
 	margin: auto;
 	padding: 30px;
-	background-color: rgb(255, 55, 24);
+	background-color: #111213;
 
 	/* add gradient background*/
-	background-image: url("./images/Untitled-8.png");
+	background-image: url("./images/top_white_shadow.png");
 	background-position: 100% 0%;
 	background-repeat: no-repeat;
 }
+#search_bar
+{
+	border-radius: 10px;
+	padding-left: 30px;
+	width: 130px;
+	float: right;
+	background-image: url("./images/mag_glass2.png");
+	background-repeat: no-repeat;
+	background-size: 15px;
+	background-position: 5% 100%;
+}
+
 #header_top
 {
 }
@@ -32,7 +44,6 @@
 #slider
 {
 	margin: 0 -30px;
-	background-color: rgb(256, 2, 25);
 }
 #back_bar
 {
