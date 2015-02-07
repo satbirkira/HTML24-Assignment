@@ -2,7 +2,10 @@
 {
 	width: 960px;
 	margin: auto;
-	padding: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+	
 	/* background-color: #111213; */
 
 	/* add gradient background*/
@@ -10,6 +13,11 @@
 	background-position: 100% 0%;
 	background-repeat: no-repeat;
 	background-color: rgb(255, 55, 24);
+}
+#top_content, #middle_content, #sponsors, #footer
+{
+	padding-left: 30px;
+	padding-right: 30px;
 }
 #search_bar
 {
@@ -129,7 +137,8 @@
 {
 	/* background-color: #4e4d4d */
 	background-color: rgb(120, 105, 64);
-	padding: 25px 0;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 #sponsors_title
 {
@@ -235,7 +244,8 @@
 	display: table;
 	width: 100%;
 	background-color: rgb(200, 105, 64);
-	padding: 30px 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 #shop_widget_text, #event_widget_text, #score_widget_text
 {
