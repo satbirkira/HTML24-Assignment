@@ -20,12 +20,16 @@ background-repeat: repeat-x, repeat;
 #middle_content{background-color: #ffffff;}
 #sponsors{background-color: #ffffff;}
 #footer{background-color: #111213}
-
-#top_content, #middle_content, #sponsors, #footer
+#middle_content
+{
+	
+}
+#top_content, #sponsors, #footer
 {
 	padding-left: 30px;
 	padding-right: 30px;
 }
+
 #search_bar
 {
 	border-radius: 10px;
@@ -107,7 +111,7 @@ background-repeat: repeat-x, repeat;
 }
 .blog_left_cell
 {
-	width: 75%;
+	width: 76%;
 }
 #slider_quote
 {
@@ -230,17 +234,18 @@ background-repeat: repeat-x, repeat;
 #blog_posts
 {
 	padding-right: 60px;
+	padding-top: 30px;
+	padding-left: 30px;
 }
 #blog_sidebar
 {
-	background-color: #f3f3f3;
 	background-image: url("./images/sidebar/sidebar-background.png");
 	background-repeat: no-repeat;
 	padding-left: 20px;
+	padding-top: 30px;
 }
 #middle_content
 {
-	padding-top: 30px;
 	padding-bottom: 30px;
 }
 #shop_widget_text, #event_widget_text, #score_widget_text
