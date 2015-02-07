@@ -1,19 +1,24 @@
 #main_container
 {
-	width: 960px;
+	width: 1020px;
 	margin: auto;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	
-	
-	/* background-color: #111213; */
-
-	/* add gradient background*/
+	background-color: #111213;
+}
+#top_content 
+{
+	background-color: #111213;
 	background-image: url("./images/top_white_shadow.png");
 	background-position: 100% 0%;
 	background-repeat: no-repeat;
-	background-color: rgb(255, 55, 24);
+	padding-top: 30px;
 }
+#middle_content{;}
+#sponsors{;}
+#footer
+{
+	padding-bottom: 30px;
+}
+
 #top_content, #middle_content, #sponsors, #footer
 {
 	padding-left: 30px;
@@ -30,10 +35,7 @@
 	background-size: 15px;
 	background-position: 5% 100%;
 }
-#header
-{
-	background-color: rgb(25, 55, 24);
-}
+#header{;}
 #slogan
 {
 	font-family:Garamond, Georgia, serif;
@@ -46,9 +48,9 @@
 }
 #topbar_menu_area
 {
+
 	padding-bottom: 20px;
 	width: 100%;
-	background-color: rgb(100, 105, 64);
 }
 .menu
 {
@@ -79,7 +81,6 @@
 }
 #back_bar
 {
-	background-color: rgb(26, 2, 25);
 	padding: 40px 0px;
 }
 .table
@@ -153,6 +154,7 @@
 }
 #sponsor_table
 {
+
 	width: 100%;
 	text-align: center;
 	border-collapse: separate;
@@ -174,6 +176,7 @@
 }
 #footer
 {
+
 	background-color: rgb(20, 20, 20);
 	padding-top: 25px;
 }
@@ -240,6 +243,7 @@
 }
 #middle_content
 {
+
 	background-color: rgb(200, 105, 64);
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -265,6 +269,7 @@ a.no_decoration
 }
 .blog_post
 {
+
 	padding-bottom: 70px;
 }
 .valign_top
