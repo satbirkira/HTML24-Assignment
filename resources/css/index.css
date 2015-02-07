@@ -111,21 +111,25 @@
 {
 	color: #646363;
 }
+.black_text
+{
+	color: #111213;
+}
+.blue_text
+{
+	color: #2c83b0;
+}
 #share_icons
 {
 	display: inline-block;
 	float: right;
 }
-#middle_content
-{
-	background-color: white;
-	padding-top: 20px;
-}
+
 #sponsors
 {
 	/* background-color: #4e4d4d */
 	background-color: rgb(120, 105, 64);
-	padding: 20px 0;
+	padding: 25px 0;
 }
 #sponsors_title
 {
@@ -135,7 +139,6 @@
 {
 	font-family:Garamond, Georgia, serif;
 	font-size:20pt;
-	color: #111213;
 }
 #sponsor_table
 {
@@ -164,7 +167,7 @@
 	display: table;
 	width: 100%;
 	background-color: rgb(20, 20, 20);
-	padding-top: 20px;
+	padding-top: 25px;
 }
 #left_footer
 {
@@ -206,7 +209,9 @@
 	width: 75px;
 	height: 75px;
 	padding: 5px;
-	border: 1px solid #fafafa;
+	border: 1px solid #333333;
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
 }
 #flickr_stream a
 {
@@ -214,16 +219,75 @@
 }
 #blog_posts
 {
-	background-color: rgb(250, 235, 20);
+	
+	background-color: rgb(230, 105, 64);
+	padding-right: 60px;
 }
 #blog_sidebar
 {
-	background-color: rgb(20, 235, 215);
+	background-color: #f3f3f3;
+	background-image: url("./images/sidebar/sidebar-background.png");
+	background-repeat: no-repeat;
+	padding-left: 20px;
 }
 #middle_content
 {
 	display: table;
 	width: 100%;
 	background-color: rgb(200, 105, 64);
+	padding: 30px 0;
+}
+#shop_widget_text, #event_widget_text, #score_widget_text
+{
+	font-family:Garamond, Georgia, serif;
+	font-size:20pt;
+	padding-bottom: 30px;
+}
+.sidebar_widget
+{
+	padding-top: 5px;
+	padding-bottom: 40px;
+}
+a.no_decoration
+{
+	text-decoration: none;
+}
+.blog_image
+{
+	border: 6px solid #e9e9e9;
+}
+.blog_post
+{
+	display: table;
+	padding-bottom: 70px;
+}
+.valign_top
+{
+ vertical-align: top;
 }
 
+.post_content
+{
+	padding-left: 30px;
+	position: relative;
+}
+.post_title
+{
+	padding-top: 5px;
+	font-family:Garamond, Georgia, serif;
+	font-size:20pt;
+}
+.post_date
+{
+	font-family:Garamond, Georgia, serif;
+	font-size:10pt;
+}
+.post_header
+{
+	padding-bottom: 15px;
+}
+.blog_button
+{
+	position: absolute;
+	bottom: 0px;
+}

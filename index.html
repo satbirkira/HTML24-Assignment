@@ -4,6 +4,7 @@
 <head>
 <!-- CSS -->
 <link rel="stylesheet" type="text/css" href="./resources/css/index.css">
+<link rel="stylesheet" type="text/css" href="./resources/css/blog_buttons.css">
 <link rel="stylesheet" type="text/css" href="./vendors/ResponsiveSlides/responsiveslides.css">
 <link rel="stylesheet" type="text/css" href="./vendors/jquery/jquery-ui.min.css">
 <link rel="stylesheet" type="text/css" href="./vendors/jquery/jquery-ui.structure.min.css">
@@ -78,15 +79,100 @@
 	
 	<div id="middle_content">
 		<div class="row">
-			<div id="blog_posts" class="cell blog_left_cell"><span>Section 1</span></div>
-			<div id="blog_sidebar" class="cell"><span>Section 2</span></div>
+			<div id="blog_posts" class="cell blog_left_cell">
+				<div class="blog_row row">
+					<div id="post_1" class="blog_post">
+						<div class="row">
+							<div class="blog_cell cell">
+								<img class="blog_image" src="./resources/images/blog/1.png" alt="">
+							</div>
+							<div class="post_content blog_cell cell valign_top">
+								<div class="post_header">
+									<div class="post_title black_text" >Wonderful Copenhagen 2011</div>
+									<div class="post_date blue_text" >Posted: 23/1-2011</div>
+								</div>
+								<div class="post_details">
+									<div class="post_paragraph black_text">The aim is to understand the science behind our sensory perceptions. 
+									And by stimulating the senses we will improve our tasting skills. Therefore the program will 
+									be a mix of aroma sessions, basic taste theory...</div>
+								</div>
+								<a class="blog_button" href="#">Read more</a>
+							</div>
+						</div>
+					</div>
+					<div id="post_3" class="blog_post">
+						<div class="row">
+							<div class="blog_cell cell">
+								<img class="blog_image" src="./resources/images/blog/2.png" alt="">
+							</div>
+							<div class="post_content blog_cell cell valign_top">
+								<div class="post_header">
+									<div class="post_title black_text" >Nordic Barista Cup 2011 in Copenhagen</div>
+									<div class="post_date blue_text" >Posted: 22/1-2011</div>
+								</div>
+								<div class="post_details">
+									<div class="post_paragraph black_text">Nordic Barista Cup 2011 will be held in Copenhagen, Denmark.
+									Dates: 25th - 27th August 2011. The theme for the 2011 seminar is: SENSORY. More information will 
+									follow on this page....</div>
+								</div>
+								<a class="blog_button" href="#">Read more</a>
+							</div>
+						</div>
+					</div>
+					<div id="post_3" class="blog_post">
+						<div class="row">
+							<div class="blog_cell cell">
+								<img class="blog_image" src="./resources/images/blog/3.png" alt="">
+							</div>
+							<div class="post_content blog_cell cell valign_top">
+								<div class="post_header">
+									<div class="post_title black_text" >2010 Winners: Sweden</div>
+									<div class="post_date blue_text" >Posted: 12/1-2011</div>
+								</div>
+								<div class="post_details">
+									<div class="post_paragraph black_text">Oh my goodness, the final night is here! We are at the 
+									most incredible location in all of Oslo—well, at least that is what I think, since I havent 
+									seen much of anything else around here. ....</div>
+								</div>
+								<a class="blog_button" href="#">Read more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="blog_sidebar" class="cell valign_top">
+				<div id="shop_widget" class="sidebar_widget">
+					<div id="shop_widget_text" class="black_text">NBC Shop</div>
+					<div class="black_text">Your shopping cart is empty</div>
+					<div class="black_text"><a href="#" class="no_decoration blue_text">Visit the shop</a></div>
+				</div>
+				<div id="event_widget" class="sidebar_widget">
+					<div id="event_widget_text" class="black_text">Next Event</div>
+					<div class="black_text">Nordic Barista Cup 2011</div>
+					<div class="black_text">Copenhagen, Denmark</div>
+					<div class="black_text">Dates : 25th - 27th August 2011</div>
+					<div class="black_text">Theme : SENSORY</div>
+					<p><a href="#" class="no_decoration blue_text">Sign up now.</a></p>
+				</div>
+				<div id="score_widget" class="sidebar_widget">
+					<div id="score_widget_text" class="black_text">Scoreboard</div>
+					<div class="black_text">List of winners from past years</div>
+					<p class="black_text">2011 	-  ?
+					</br>2010 	-  Sweden
+					</br>2009	-  Denmark
+					</br>2007	-  Sweden
+					</br>2006	-  Norway
+					</br>2005	-  Norway
+					</br>2004	-  Denmark</p>
+				</div>
+			</div>
 		</div>
 	
 	
 	</div>
 	
 	<div id="sponsors">
-		<div id="sponsors_title"><span id="sponsors_title_text">Nordic Barista Cup Sponsors</span></div>
+		<div id="sponsors_title"><span id="sponsors_title_text" class="black_text">Nordic Barista Cup Sponsors</span></div>
 		<div id="sponsor_table">
 			<div class="row">
 				<div class="cell sponsor_holder"><a href="#"><img src="./resources/images/sponsors/row1/1.png" alt=""></a></div>
