@@ -174,7 +174,6 @@
 #footer
 {
 	display: table;
-	width: 100%;
 	background-color: rgb(20, 20, 20);
 	padding-top: 25px;
 }
@@ -242,7 +241,6 @@
 #middle_content
 {
 	display: table;
-	width: 100%;
 	background-color: rgb(200, 105, 64);
 	padding-top: 30px;
 	padding-bottom: 30px;
