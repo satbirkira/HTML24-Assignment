@@ -101,11 +101,11 @@ background-repeat: repeat-x, repeat;
 {
 	display: table-cell;
 }
-.cell-valign
+.cell_valign
 {
 	vertical-align:middle;
 }
-.left-cell
+.left_cell
 {
 	width: 68%;
 }
@@ -203,7 +203,7 @@ background-repeat: repeat-x, repeat;
 	padding-left: 20px;
 	background-color: rgb(20, 20, 20);
 }
-#left-footer-content
+#left_footer_content
 {
 	display: inline-table;
 	width: 100%;

@@ -1,0 +1,5 @@
+1. Realized I made a miscalculation of the main container's width, bumped
+it up to 1020px from 960px to compensate.
+2. Realized I made a mistake thinking the padding came from the main container
+for all 4 sections, fixed when bumping up to 1020px(960px+30px+30px).
+3. Added a cardboard tile background for a polished look.
