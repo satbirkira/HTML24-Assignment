@@ -1,0 +1,74 @@
+#top_content 
+{
+	background-color: #111213;
+	background-image: url("./images/top_white_shadow.png");
+	background-position: 100% 0%;
+	background-repeat: no-repeat;
+	padding-top: 30px;
+}
+#topbar_menu_area
+{
+
+	padding-bottom: 20px;
+	width: 100%;
+}
+#search_bar
+{
+	border-radius: 10px;
+	padding-left: 30px;
+	width: 130px;
+	float: right;
+	background-image: url("./images/mag_glass2.png");
+	background-repeat: no-repeat;
+	background-size: 15px;
+	background-position: 5% 100%;
+}
+#slogan
+{
+	font-family:Garamond, Georgia, serif;
+	font-size: 15pt;
+	color: #ffffff;
+	display: inline-block;
+	white-space: pre;
+	text-indent: 7px;
+	letter-spacing: 2px;
+}
+.menu
+{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	display: inline-block;
+	float: right;
+}
+.menu li
+{
+	display: inline;
+	padding: 0 5px;
+}
+.menu a
+{
+	text-decoration: none;
+	font-family:Garamond, Georgia, serif;
+	font-size: 8pt;
+	color: #ffffff;
+	display: inline-block;
+	letter-spacing: 2px;
+	/* font-weight: bold; */
+}
+#slider
+{
+	margin: 0 -30px;
+}
+#back_bar
+{
+	padding: 40px 0px;
+}
+#slider_quote
+{
+	font-family:Garamond, Georgia, serif;
+	font-size:25pt;
+	line-height: 25pt;
+	display: inline-block;
+}
+

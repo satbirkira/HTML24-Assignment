@@ -1,0 +1,67 @@
+body
+{
+	background-color: #111213;
+	background-image: url("./images/background/zenbg-cardboard.png"), url("./images/background/zenbg-cardboard2.png");
+	background-repeat: repeat-x, repeat;
+}
+#main_container
+{
+	width: 1020px;
+	margin: auto;
+	background-color: #111213;
+}
+#top_content, #sponsors, #footer
+{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#middle_content{background-color: #ffffff;}
+#sponsors{background-color: #ffffff;}
+#footer{background-color: #111213}
+
+.table
+{
+	display: table;
+}
+.row
+{
+	display: table-row;
+}
+.cell
+{
+	display: table-cell;
+}
+.cell_valign
+{
+	vertical-align:middle;
+}
+.left_cell
+{
+	width: 68%;
+}
+.blog_left_cell
+{
+	width: 76%;
+}
+
+.light_text
+{
+	color: #a3a3a3;
+}
+.dark_text
+{
+	color: #646363;
+}
+.black_text
+{
+	color: #111213;
+}
+.blue_text
+{
+	color: #2c83b0;
+}
+#share_icons
+{
+	display: inline-block;
+	float: right;
+}

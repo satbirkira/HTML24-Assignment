@@ -1,0 +1,36 @@
+#sponsors
+{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#sponsors_title
+{
+	padding-bottom: 20px;
+}
+#sponsors_title_text
+{
+	font-family:Garamond, Georgia, serif;
+	font-size:20pt;
+}
+#sponsor_table
+{
+
+	width: 100%;
+	text-align: center;
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+#sponsor_table .cell
+{
+	border: 6px solid #fafafa;
+    /*padding: 10px 40px;*/
+}
+#sponsor_table  img
+{
+	max-width: 100%;
+	height: auto;
+}
+#sponsor_holder
+{
+	padding: 5px;
+}

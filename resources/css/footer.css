@@ -1,0 +1,53 @@
+#footer
+{
+	padding-bottom: 30px;
+	padding-top: 25px;
+}
+#left_footer
+{
+	width: 68%;
+	background-color: rgb(250, 235, 215);
+}
+#about_section
+{
+	background-color: rgb(20, 20, 20);
+	width: 50%;
+}
+#flickr_section
+{
+	background-color: rgb(20, 20, 20);
+	padding-left: 20px;
+}
+#contact_section
+{
+	padding-left: 20px;
+	background-color: rgb(20, 20, 20);
+}
+#left_footer_content
+{
+	display: inline-table;
+	width: 100%;
+}
+#flickr_title
+{
+	padding-bottom: 20px;
+}
+#about_title_text, #flickr_title_text, #contact_title_text
+{
+	font-family:Garamond, Georgia, serif;
+	font-size:20pt;
+	color: #ffffff;
+}
+#flickr_stream img
+{
+	width: 75px;
+	height: 75px;
+	padding: 5px;
+	border: 1px solid #333333;
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+}
+#flickr_stream a
+{
+	padding: 2px;
+}
