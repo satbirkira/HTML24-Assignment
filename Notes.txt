@@ -1,3 +1,5 @@
 1. The fonts at low pt are impossible to replicate because photoshop renders them with smoothing anti aliasing. When rendering using strong, photoshop will raise the font height and change the letter spacing and hence the only possible way to come close to the original look is to lower the pt using css to get an approximate look.
 2. Put search bar a little higher
 3. Realize I did the entire right padding 10px more
+4. Font sizes are very tricky, to get a best estimate in the footer, 12pt seems right but
+looks hard to read. However, it completely throws off the padding.
