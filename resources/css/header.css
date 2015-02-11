@@ -6,22 +6,26 @@
 	background-repeat: no-repeat;
 	padding-top: 30px;
 }
+#header_top
+{
+	width: 100%;
+}
 #topbar_menu_area
 {
-
-	padding-bottom: 20px;
 	width: 100%;
 }
 #search_bar
 {
 	border-radius: 10px;
 	padding-left: 30px;
-	width: 130px;
+	width: 91px; /* with padding and rendering comes out to 125px*/
 	float: right;
-	background-image: url("./images/mag_glass2.png");
+	background-image: url("./images/magnifying_glass_NEW.png");
 	background-repeat: no-repeat;
 	background-size: 15px;
-	background-position: 5% 100%;
+	margin-top: -10px;
+	background-position: 5% 50%;
+	height: 13px;
 }
 #slogan
 {
@@ -44,30 +48,35 @@
 .menu li
 {
 	display: inline;
-	padding: 0 5px;
+	padding-left: 10px;
 }
 .menu a
 {
 	text-decoration: none;
 	font-family:Garamond, Georgia, serif;
-	font-size: 8pt;
+	font-size: 9pt;
 	color: #ffffff;
 	display: inline-block;
-	letter-spacing: 2px;
-	/* font-weight: bold; */
 }
 #slider
 {
-	margin: 0 -30px;
+	margin-right: -20px;
+	margin-left: -30px;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 #back_bar
 {
-	padding: 40px 0px;
+	padding-bottom: 40px;
+}
+#slider_quote_holder
+{
+	padding-right: 70px;
 }
 #slider_quote
 {
 	font-family:Garamond, Georgia, serif;
-	font-size:25pt;
+	font-size:22pt;
 	line-height: 25pt;
 	display: inline-block;
 }

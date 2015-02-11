@@ -1,5 +1,3 @@
-1. Realized I made a miscalculation of the main container's width, bumped
-it up to 1020px from 960px to compensate.
-2. Realized I made a mistake thinking the padding came from the main container
-for all 4 sections, fixed when bumping up to 1020px(960px+30px+30px).
-3. Added a cardboard tile background for a polished look.
+1. The fonts at low pt are impossible to replicate because photoshop renders them with smoothing anti aliasing. When rendering using strong, photoshop will raise the font height and change the letter spacing and hence the only possible way to come close to the original look is to lower the pt using css to get an approximate look.
+2. Put search bar a little higher
+3. Realize I did the entire right padding 10px more

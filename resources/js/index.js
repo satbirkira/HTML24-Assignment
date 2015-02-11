@@ -16,5 +16,4 @@ $(function()
     $( "#search_bar" ).autocomplete({
       source: availableTags
     });
-	$("#search_bar").corner();
 });
