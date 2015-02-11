@@ -8,10 +8,15 @@ body
 	margin: auto;
 	background-color: #111213;
 }
-#top_content, #sponsors, #footer
+#top_content, #footer
 {
 	padding-left: 30px;
 	padding-right: 20px;
+}
+#sponsors
+{
+	padding-left: 30px;
+	padding-right: 30px;
 }
 #middle_content{background-color: #ffffff;}
 #sponsors{background-color: #ffffff;}
