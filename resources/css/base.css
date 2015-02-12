@@ -38,7 +38,7 @@ body
 {
 	display: table-cell;
 }
-.cell_valign
+.cell_valign_middle
 {
 	vertical-align:middle;
 }
