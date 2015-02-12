@@ -1,6 +1,10 @@
 body
 {
-	background-color: rgb(11, 129, 247);
+	background-repeat: repeat-x;
+	background-color: #012f5a;
+	background-image: -webkit-linear-gradient(left, rgb(1, 47, 90), rgb(255, 255, 255), rgb(1, 47, 90));
+	background-image: -moz-linear-gradient(left, rgb(1, 47, 90), rgb(255, 255, 255), rgb(1, 47, 90));
+	background-image: -o-linear-gradient(left, rgb(1, 47, 90), rgb(255, 255, 255), rgb(1, 47, 90));
 }
 #main_container
 {
@@ -68,3 +72,4 @@ body
 	display: inline-block;
 	float: right;
 }
+
