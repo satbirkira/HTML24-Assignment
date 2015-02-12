@@ -48,7 +48,7 @@ body
 }
 .blog_left_cell
 {
-	width: 76%;
+	width: 75%;
 }
 
 .light_text
@@ -67,7 +67,11 @@ body
 {
 	color: #2c83b0;
 }
-#share_icons
+.clear
+{
+	clear: both;
+}
+.share_icons
 {
 	display: inline-block;
 	float: right;
