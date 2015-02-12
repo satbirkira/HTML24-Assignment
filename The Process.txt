@@ -1,0 +1,32 @@
+The Process:
+
+First Deadline:
+===============
+1. Create file and folder structure
+2. Given time limit, and that there is no Javascript or Back-End, it would be
+counter productive to build archtecture. Hence no frameworks will be used.
+3. Measure ratios using psd
+4. Sketch out tables, padding and margins by hand on a piece of paper.
+5. Realize the top section containes a slider. Found one with a MIT license(allows commercial use) ResponsiveSlides.js v1.54
+4. Export relative images from psd, such as logo.
+5. Start with top section. Layout divs, add margins, padding and back-ground colors to template
+layout.
+6. Do sponsors
+7. Do footer
+8. Do blog section
+9. Fix minor issues
+10. See if CSS can be condensed
+11. Add colours
+
+Second Deadline:
+===============
+1. Assess problems with website
+2. Re-measure ratios using psd
+3. Fix font sizes issues from resize: 1020px container --> 960px
+4. Fix sponsors section padding
+5. Research and find issues with css 'position: relative' on table tags in firefox
+[solves button issues]
+6. Apply a linear gradient to the background
+7. Fix safari footer issues in second cell
+[solves contact section being pushed down]
+8. Clean up files
