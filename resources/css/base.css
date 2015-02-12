@@ -76,4 +76,16 @@ body
 	display: inline-block;
 	float: right;
 }
+.full_width
+{
+	width: 100%;
+}
+.zero_margin
+{
+	margin: 0px;
+}
+.table_position_relative
+{
+	position: relative;
+}
 
